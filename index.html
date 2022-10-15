@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>School Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+  .travel {
+    border: 1px solid lightgray;
+  }
+
+  .travel img {
+    width: 90%;
+  }
+
+  .travel h5,
+  .travel p {
+    margin: 20px;
+  }
+
+  .school_hr {
+    margin: 0;
+    padding: 0;
+  }
+  .isdc{
+    border-radius: 10px;
+  }
+  .iscd_button{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+  }
+</style>
+
+<body>
+
+  <!--
+Navigation bar code here
+-->
+  <nav>
+    <div class="navbar-inverse my_nav_bar">
+      <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target="#myNavbar" class="navbar-toggle">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">St.Xavier's School</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#video">Campus Life</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#writings">WRITINGS</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <iframe src="https://www.youtube.com/embed/9Frow8HMh74" frameborder="0" id="video"></iframe>
+  <div class="containe">
+    <h2 class="page-header" id="travel">Campus Life</h2>
+    <center>
+      <div class="travel">
+        <img src="church.jpg" alt="travel1">
+        <h4 class="text-capitalize"><kbd>School Church</kbd></h4>
+        <hr>
+        <h5 class="text-capitalize text-success">was established in 1978</h5>
+        <p class="text-muted">Write something about the mentioned place</p>
+      </div>
+    </center>
+    <hr>
+    <center>
+      <div class="travel">
+        <img src="st2.jpg" alt="travel1">
+        <h4 class="text-capitalize"><kbd>School library</kbd></h4>
+        <hr>
+        <h5 class="text-capitalize text-success">Was build in 1980</h5>
+        <p class="text-muted">Write something about the mentioned place</p>
+      </div>
+    </center>
+    <hr>
+    <center>
+      <div class="travel">
+        <img src="st3.jpg" alt="travel">
+        <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+        <hr>
+        <h5 class="text-success text-capitalize">Was build in 1982</h5>
+        <p class="text-muted">Write something about the mentioned place</p>
+      </div>
+    </center>
+    <hr>
+  </div>
+  <div class="sa">
+    <h2 class="page-header">School Achievements</h2>
+    <div class="bg-primary isdc" data-toggle="collapse" data-target="#main">
+      <div class="iscd_button">
+        <h2>Inter School Debate on Enviornment Pollution</h2><i class="fa fa-sort-desc"></i>
+      </div>
+      <div id="main" class="collapse">
+        <div class="main_text">
+          <center>
+            <img src="se1.jpg" class="img-responsive img-thumbnail">
+            <h5 class="text-success text-capitalize">Won first prize in inter school debate on enviornment pollution
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p>Write about this achievement</p>
+          </center>
+        </div>
+      </div>
+    </div>
+    <div class="bg-primary isdc" data-toggle="collapse" data-target="#main-foot">
+      <div class="iscd_button">
+        <h2>Inter School Football Competition</h2><i class="fa fa-sort-desc"></i>
+      </div>
+      <div id="main-foot" class="collapse">
+        <div class="main_text">
+          <center>
+            <img src="sm2.jpg" class="img-responsive img-thumbnail">
+            <h5 class="text-success text-capitalize">Came second in inter school competition
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p>Write about this achievement</p>
+          </center>
+        </div>
+      </div>
+    </div>
+    <div class="bg-primary isdc" data-toggle="collapse" data-target="#main-pro">
+      <div class="iscd_button">
+        <h2>Inter School Science Project Completion</h2><i class="fa fa-sort-desc"></i>
+      </div>
+      <div id="main-pro" class="collapse">
+        <div class="main_text">
+          <center>
+            <img src="sm3.jpg" class="img-responsive img-thumbnail">
+            <h5 class="text-success text-capitalize">Won second price in inter school science project completion
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+              <span class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p>Write about this achievement</p>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
